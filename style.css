@@ -810,10 +810,10 @@ margin-bottom: 80px;
 
 
 .contact__item:nth-child(2){
-  display: flex;
-  justify-content: flex-end;
+  height:100%;
 }
 .input__contact{
+  font-family: inherit;
   padding-left: 15px;
   margin-top: 40px;
   color: #000;
@@ -830,16 +830,17 @@ margin-bottom: 80px;
   outline: 0;
   border-color:#DEDEDE ;
 }
-.contact__item:nth-child(2){
-  display: flex;
-  justify-content: flex-end;
-}
+
 
 .msg{
+  
   display: block;
+  font-family: inherit;
+  color: #BDBDBD;
   border:0;
   border-bottom: 1px solid #DEDEDE;
   width: 500px;
+  height: 100%;
   resize: none;
 }
 
