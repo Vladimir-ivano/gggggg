@@ -859,21 +859,25 @@ margin-bottom: 80px;
 
 /* footer */
 .footer{
-  height: 85px;
+  padding: 20px 0 12px 0;
   background-color: #000;
 }
 
 .footer__social{
   display: flex;
   justify-content: center;
-padding: 20px 0 10px 0;
+
 }
 
 .nav__social{
   margin-right: 40px;
-  
   text-decoration: none;
 }
+.nav__social:last-child{
+  margin-right: 0;
+  margin-bottom: 13px;
+}
+
 .footer__icons{
   height: 30px;
   fill: #CCCCCC;
@@ -883,4 +887,11 @@ padding: 20px 0 10px 0;
 
 .footer__icons:hover{
   fill: rgb(107, 103, 103);
+}
+
+.footer__text {
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  opacity: .7;
 }
