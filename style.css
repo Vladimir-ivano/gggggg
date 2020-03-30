@@ -797,8 +797,8 @@ margin-bottom: 80px;
 
 .contact__inner{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  
 }
 
 .contact__item{
