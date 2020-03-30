@@ -810,7 +810,7 @@ margin-bottom: 80px;
 
 
 .contact__item:nth-child(2){
-  height:100%;
+  
 }
 .input__contact{
   font-family: inherit;
@@ -833,7 +833,6 @@ margin-bottom: 80px;
 
 
 .msg{
-  
   display: block;
   font-family: inherit;
   color: #BDBDBD;
@@ -903,4 +902,12 @@ margin-bottom: 80px;
   text-align: center;
   color: #fff;
   opacity: .7;
+}
+
+
+/* media */
+
+
+@media(max-widht: 1200px){
+
 }
