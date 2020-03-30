@@ -137,6 +137,7 @@ padding: 64px 0 110px 0;
 .btn{
   display: inline-block;
   vertical-align: top;
+
   padding: 13px 35px;
   border: 2px solid #fff;
   background-color:#B0B0B0;
@@ -778,4 +779,108 @@ border-bottom: 1px solid #f9f9f9;
   font-weight: normal;
   color: #fff;
   opacity: .7;
+margin-bottom: 80px;
+}
+
+
+.section--contact{
+  padding: 106px 0 70px 0;
+  background-color: #fff;
+}
+
+.section__contact{
+  width: 100%;
+  margin: 0 auto; 
+  max-width: 730px;
+  text-align: center;
+}
+
+.contact__inner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.contact__item{
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+
+
+.contact__item:nth-child(2){
+  display: flex;
+  justify-content: flex-end;
+}
+.input__contact{
+  padding-left: 15px;
+  margin-top: 40px;
+  color: #000;
+  border:0 ;
+  border-bottom: 1px solid #D6D6D6;
+  width: 500px;
+}
+
+.input__contact::placeholder{
+  color: #ccc;
+}
+
+.input__contact:focus{
+  outline: 0;
+  border-color:#DEDEDE ;
+}
+.contact__item:nth-child(2){
+  display: flex;
+  justify-content: flex-end;
+}
+
+.input--message{
+  vertical-align:70px ;
+  width: 500px;
+}
+
+.btn__contact{
+  text-align: center;
+}
+
+
+.btn--org{
+  
+  padding: 15px 33px;
+  background-color: #FF9B51;
+  transition: background .2s linear;
+}
+
+.btn--org:hover{
+  background-color: rgb(230, 138, 69);
+}
+
+
+/* footer */
+.footer{
+  height: 85px;
+  background-color: #000;
+}
+
+.footer__social{
+  display: flex;
+  justify-content: center;
+padding: 20px 0 10px 0;
+}
+
+.nav__social{
+  margin-right: 40px;
+  
+  text-decoration: none;
+}
+.footer__icons{
+  height: 30px;
+  fill: #CCCCCC;
+  width: auto;
+  transition: fill .2s linear;
+}
+
+.footer__icons:hover{
+  fill: rgb(107, 103, 103);
 }
