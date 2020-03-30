@@ -13,7 +13,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 h1,
 h2,
 h3,
@@ -247,6 +246,7 @@ padding: 64px 0 95px 0;
   margin-bottom: 20px;
   width: 35%;
 }
+
 .social__title{
   text-align: left;
   font-size: 20px;
@@ -268,7 +268,7 @@ padding: 64px 0 95px 0;
 }
     
 .social__link{
-  padding-left: 50px;
+  padding-left: 30px;
   align-items: center;
   display: flex;
   text-decoration: none;
@@ -320,7 +320,7 @@ transition: background-color .2s linear;
 }
 
 features__col--first{
-  width: 12%;
+  width: 11%;
   
 }
 
@@ -329,11 +329,11 @@ features__col--first{
 }
 
 .features__col--second{
-  width: 51%;
+  width: 49%;
 }
 
 .features__col--third{
-  width: 29%;
+  width: 35%;
 }
 
 .soft__title{
