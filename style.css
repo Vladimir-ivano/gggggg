@@ -214,10 +214,10 @@ padding: 64px 0 110px 0;
   color: #000;
   border:0 ;
   border-bottom: 1px solid #D6D6D6;
-
 }
 .mainform input::placeholder{
   color: #ccc;
+  
 }
 
 .mainform input:focus{
@@ -644,7 +644,7 @@ border-bottom: 1px solid #f9f9f9;
 
 /* Team */
 .section--team{
-  padding: 104px 0 100px 0;
+  padding: 104px 0 80px 0;
 }
 
 .section__team{
@@ -664,15 +664,17 @@ border-bottom: 1px solid #f9f9f9;
 .team__item{
   padding: 0 5px;
   width: 33.33333%;
+  margin-bottom: 20px;
 }
 
 .coment {
-  position: relative;
+ position: relative;
   background: #F5F5F5;
   border:1px solid #F5F5F5 ;
   border-radius: 2px;
   text-align: left;
   width: 300px;
+  margin-bottom: 25px;
  }
 
  .coment  p{
@@ -694,47 +696,84 @@ border-bottom: 1px solid #f9f9f9;
  .coment:after {
   border-top-color: #F5F5F5;
   border-width: 18px;
-  left: 20%;
+  left: 10%;
   margin-left: -18px;
  }
  .coment:before {
   
   border-top-color: #F5F5F5;
   border-width: 19px;
-  left: 20%;
+  left: 10%;
   margin-left: -19px;
  }
 
- .team__content{
-  position: relative;
+ .team__link{
+   position: relative;
+   padding-left: 85px;
  }
+
+.photo__team{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
 
  .photo__team{
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  top: 25px;
-  left: 25px;
-  z-index: 1;
-position: absolute
  }
+ 
 
- .team__name{
+
+.team__name{
+  color: #333333;
    font-size: 20px;
    font-weight: 700;
-   padding-left: 20px;
-   top: 25px;
-  left: 100px;
-  z-index: 1;
-position: absolute
+   margin-bottom: 10px;
  }
 
 
  .team__prof{
    font-size: 15px;
    font-weight: normal;
-   top: 55px;
-   left: 120px;
-   z-index: 1;
- position: absolute
+   
  }
+
+ /* design */
+ .section--design{
+   padding: 70px 0 21px 0;
+   background-color: #9A9A9A;
+ }
+
+
+ .section__design{
+  width: 100%;
+  margin: 0 auto; 
+  max-width: 730px;
+  text-align: center;
+}
+
+.design--title{
+  color: #fff;
+}
+
+.design--text{
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.download{
+  text-align: center;
+}
+
+.btn--design{
+  margin-bottom: 24px;
+}
+.download__text{
+  font-size: 15px;
+  font-weight: normal;
+
+}
