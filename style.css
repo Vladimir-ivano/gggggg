@@ -799,7 +799,6 @@ margin-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 40px;
 }
 
 .contact__item{
@@ -835,12 +834,20 @@ margin-bottom: 80px;
   justify-content: flex-end;
 }
 
-.input--message{
-  vertical-align:70px ;
+.msg{
+  display: block;
+  border:0;
+  border-bottom: 1px solid #DEDEDE;
   width: 500px;
+  resize: none;
 }
 
+.msg:focus{
+  outline: 0;
+  border-color:#DEDEDE ;
+}
 .btn__contact{
+  margin-top: 40px;
   text-align: center;
 }
 
