@@ -1178,6 +1178,16 @@ features__col--third{
 }
 
 
+.section__item{
+  width: 100%;
+  
+}
+
+.team__item{
+  padding-left: 150px;
+  width: 100%;
+  margin: 0 auto}
+
 .contact__item{
   flex-basis: 100%;
  
