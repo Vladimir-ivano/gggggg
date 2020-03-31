@@ -809,28 +809,48 @@ margin-bottom: 80px;
 }
 
 .contact__inner{
+  display: -webkit-box;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .contact__item{
- margin-right: 20px;
-  width: 50%;
-  margin-bottom: 20px;
+  flex-basis: 50%;
+  padding-right: 10px;
+
 }
 
-.contact__item:last-child{
-  margin-right: 0;
+.contact__item:nth-child(2), .contact__item:last-child {
+  padding-right: 0;
 }
+
+.contact__item:nth-child(2) {
+  padding-left: 10px; /* Отвечает за левый отступ, правой колонки, где: message. */
+}
+
+.contact__item:last-child {
+  flex-basis: 100%;
+  margin-top: 40px; /* Отвечает за верхний отступ, колонки с кнопкой. */
+  text-align: center;
+}
+
 
 .input__contact{
   font-family: inherit;
-  padding-left: 15px;
-  margin-top: 40px;
-  color: #000;
+  padding: 10px;
+  color: #86878B;
   border:0 ;
   border-bottom: 1px solid #D6D6D6;
-  width: 500px;
+  width:100%;
+}
+
+.contact__inp {
+  display: block;
+  margin-top: 20px; /* Отвечает за верхний отступ, полей ввода: email и password. */
+}
+
+.contact__inp:first-child {
+  margin-top: 0;
 }
 
 .input__contact::placeholder{
@@ -842,6 +862,9 @@ margin-bottom: 80px;
   border-color:#DEDEDE ;
 }
 
+.contact__inp:first-child {
+  margin-top: 0;
+}
 
 .msg{
   display: block;
@@ -849,8 +872,9 @@ margin-bottom: 80px;
   color: #BDBDBD;
   border:0;
   border-bottom: 1px solid #DEDEDE;
-  width: 500px;
+  padding: 10px;
   height: 100%;
+  width: 100%;
   resize: none;
 }
 
