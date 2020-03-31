@@ -562,7 +562,6 @@ margin-bottom: 80px;
 
 
 .section__options{
-  
   width: 100%;
   margin: 0 auto; 
   max-width: 610px;
@@ -575,7 +574,6 @@ margin-bottom: 80px;
 }
 
 .setion__inner{
-flex-wrap: wrap;
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -591,7 +589,7 @@ flex-wrap: wrap;
 }
 
 .option__item:nth-child(2){
- margin: 0 20px;
+  argin: 0 20px;
 }
 
 
@@ -1069,10 +1067,6 @@ features__col--third{
 
 
 
-.option__item{
-  flex-basis: 100%;
-  
-}
 
 
 
@@ -1090,7 +1084,7 @@ features__col--third{
 
   .picture__item{
     width: 100%;
-   
+    text-align: center;
   }
 
 }
