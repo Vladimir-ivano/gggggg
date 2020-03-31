@@ -268,10 +268,11 @@ padding: 64px 0 95px 0;
 }
     
 .social__link{
-  padding-left: 30px;
+  padding-left: 50px;
   align-items: center;
   display: flex;
   text-decoration: none;
+  flex-wrap: wrap;
 }
 
 .social__icons{
@@ -322,6 +323,7 @@ transition: background-color .2s linear;
 features__col--first{
   width: 11%;
   
+  
 }
 
 .btn__item{
@@ -334,6 +336,7 @@ features__col--first{
 
 .features__col--third{
   width: 35%;
+ 
 }
 
 .soft__title{
@@ -376,11 +379,12 @@ features__col--first{
 .list__item:nth-child(2){
   -webkit-flex-basis: 389px;
   flex-basis: 389px;
+  margin-bottom: 25px 0;
 }
 
 .image{
   
-  display: inline-block;
+  
   box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   margin-bottom: 20px;
 }
@@ -817,6 +821,7 @@ margin-bottom: 80px;
 .contact__item{
   flex-basis: 50%;
   padding-right: 10px;
+  margin-bottom: 20px 0;
 
 }
 
@@ -994,6 +999,11 @@ z-index: 1;
 
 
 
+.intro{
+  font-size: 25px;
+}
+        
+
 
 /* social */
 
@@ -1009,6 +1019,10 @@ z-index: 1;
   width: 100%;
 }
 
+.social__link{
+  padding-left: 10px;
+}
+
 /* features */
 
 .features__col--first{
@@ -1021,30 +1035,54 @@ z-index: 1;
 
 features__col--third{
   width: 100%;
+  margin: 0 auto;
 }
-
+/* list */
 
 .list__item{
   
   flex-basis: 100%;
+  margin: 0 auto;
 }
 
+.image{
+  margin: 0 auto;
+}
+
+/* .picture */
 .picture__item{
   width: 100%;
-
+  margin: 0 auto;
 }
 
 .picture__title{
   font-size: 35px;
 }
 
+
+/* works */
+
 .section__works{
   font-size: 35px;
 }
 
+/* option */
+
 .option__item{
 
-  flex-basis: calc(100%/2);
+  flex-basis:100%;
+}
+
+
+.team__item{
+  width: 50%;
+}
+
+
+/* contact */
+
+.contact__item{
+  flex-basis: 100%;
 }
 
 }
