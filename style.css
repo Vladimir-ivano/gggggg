@@ -385,7 +385,7 @@ features__col--first{
 
 .image{
   
-  
+  display: inline-block;
   box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   margin-bottom: 20px;
 }
@@ -1027,16 +1027,16 @@ z-index: 1;
 /* features */
 
 .features__col--first{
-  width: 25%;
+  width: 14%;
 }
 
 .features__col--second{
-  width: 75%;
+  width: 43%;
 }
 
 features__col--third{
-  width: 100%;
-  margin: 0 auto;
+  width: 35%;
+  
 }
 /* list */
 
@@ -1053,7 +1053,7 @@ features__col--third{
 /* .picture */
 .picture__item{
   width: 100%;
-  margin: 0 auto;
+
 }
 
 .picture__title{
