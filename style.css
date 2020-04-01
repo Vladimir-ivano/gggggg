@@ -384,7 +384,8 @@ features__col--first{
 
 .image{
   
-  display: inline-block;
+  
+  vertical-align: top;
   box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   margin-bottom: 20px;
 }
@@ -459,7 +460,7 @@ position: relative;
 
 
 .image{
-  display: inline-block;
+  vertical-align: top;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   
 }
@@ -589,7 +590,7 @@ margin-bottom: 80px;
 }
 
 .option__item:nth-child(2){
-  argin: 0 20px;
+  margin: 0 20px;
 }
 
 
@@ -1055,8 +1056,6 @@ features__col--third{
 
 .picture__item{
   width: 100%;
-  text-align: center;
-  margin: 0 auto;
 }
 
 /* works */
@@ -1086,6 +1085,8 @@ features__col--third{
   margin: 0 auto;
   margin-bottom: 20px;
 }
+
+
 
 .team__item{
   padding: 0 10px;
@@ -1143,8 +1144,6 @@ features__col--third{
 
 .list__item{
   width: 100%;
-  margin: 0 auto;
-  margin: 0;
   
 }
 
@@ -1174,7 +1173,7 @@ features__col--third{
 .team__item{
   padding: 0px;
   width: 50%;
-  margin-bottom: 40px ;
+  margin-bottom: 20px ;
 }
 
 
